@@ -10,13 +10,13 @@ Daniel Martins <br>
 [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/fagnerpsantos/)](https://www.linkedin.com/in/daniel-martins-87384a20a/)
 
 ## Introdução
-Este projeto foi desenvolvido com **Spring Boot** e **Java 17**. Ele fornece uma API para gerenciar uma lista de tarefas (ToDo).
+Este projeto foi desenvolvido com **Spring Boot** e **Java 17**
 
 ## Pré-requisitos
 Antes de iniciar o projeto, certifique-se de ter o seguinte instalado em sua máquina:
 - **Java 17**
 - **Maven**
-- **Docker** (para o banco de dados)
+- **Docker**
 
 ## Instruções para Começar
 
