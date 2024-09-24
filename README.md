@@ -33,8 +33,6 @@ Antes de iniciar o projeto, certifique-se de ter o seguinte instalado em sua má
    ```bash
     docker run --name todo-db -p 5433:5432 -e POSTGRES_DB=todo-db -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=postgres postgres:16
 
-
-
 Acessando os Endpoints [Você pode acessar os endpoints da API através do seguinte link: Documentação da API - Postman
 Contribuintes](https://restless-desert-252950.postman.co/workspace/My-Workspace~8d68bd38-e867-4efd-8b2d-888b7287547c/collection/24276121-d08063e5-ea42-4b19-9e7e-b304ab934b0a?action=share&creator=24276121)
 
