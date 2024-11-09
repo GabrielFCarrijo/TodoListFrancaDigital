@@ -4,7 +4,6 @@ import com.todoList.fatec.repository.dto.TodoDTO;
 import com.todoList.fatec.repository.form.TodoForm;
 import com.todoList.fatec.service.TodoAtualizarService;
 import com.todoList.fatec.service.TodoConsultaDinamicaService;
-import com.todoList.fatec.service.TodoDeletarService;
 import com.todoList.fatec.service.TodoInserirService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
@@ -29,7 +28,7 @@ public class TodoResource {
     private final TodoInserirService todoInserirService;
     private final TodoConsultaDinamicaService todoConsultaDinamicaService;
     private final TodoAtualizarService todoAtualizarService;
-    private final TodoDeletarService todoDeletarService;
+    //private final TodoDeletarService todoDeletarService;
 
     // Método para adicionar novas tarefas. Ele é chamado quando alguém envia um pedido para "/inserir".
     @PostMapping("/inserir")
@@ -59,7 +58,7 @@ public class TodoResource {
     // Método para deletar uma tarefa. Ele é chamado quando alguém envia um pedido para "/{id}".
     @DeleteMapping("/{id}")
     public ResponseEntity<?> deletarTodo(@PathVariable Long id) {
-        todoDeletarService.deletar(id);
+        //todoDeletarService.deletar(id);
         return ResponseEntity.ok().build();
     }
 }
